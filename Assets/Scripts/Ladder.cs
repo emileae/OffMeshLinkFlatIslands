@@ -10,16 +10,23 @@ public class Ladder : MonoBehaviour {
 	public Transform ladderBottom;
 	public Transform ladderTop;
 
+	public GameObject npc;
+	private Bounds npcBounds;
+
 	// Use this for initialization
 	void Start () {
 		oml = GetComponent<OffMeshLink>();
 		bounds = GetComponent<BoxCollider>().bounds;
 
+		// TODO: move some of the measurement stuff out of individual scripts into blackboard... like NPC bounds
+		npcBounds = npc.GetComponent<CapsuleCollider>().bounds;
+
 		ladderBottom.position = new Vector3(bounds.center.x, bounds.min.y, bounds.center.z);
-		ladderTop.position = new Vector3(bounds.center.x, bounds.max.y, bounds.center.z);
+		ladderTop.position = new Vector3(bounds.center.x, bounds.max.y - npcBounds.extents.y, bounds.center.z);
 
 		oml.startTransform = ladderBottom;
 		oml.endTransform = ladderTop;
+
 	}
 
 	// Update is called once per frame
