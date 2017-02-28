@@ -1,10 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Ladder.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shaders/VertexColor_and_light.shader">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="37" Column="42" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Ladder.cs" Line="4" Column="20" />
-      <File FileName="Assets/Scripts/NMAgent.cs" Line="36" Column="6" />
+      <File FileName="Assets/Scripts/NMAgent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Shaders/Toon_alpha.shader" Line="54" Column="7" />
+      <File FileName="Assets/Shaders/OberonsCourtShaders/SubtleRim.shader" Line="83" Column="37" />
+      <File FileName="Assets/Shaders/OberonsCourtShaders/Oberon_landscape.shader" Line="96" Column="37" />
+      <File FileName="Assets/Shaders/OberonsCourtShaders/Oberon_character.shader" Line="83" Column="37" />
+      <File FileName="Assets/Shaders/OberonsCourtShaders/Oberon_vertexlightfx.shader" Line="78" Column="37" />
+      <File FileName="Assets/Shaders/OberonsCourtShaders/Oberon_vertexcolor+rim 1.shader" Line="83" Column="37" />
+      <File FileName="Assets/Shaders/OberonsCourtShaders/Oberon_landscape_shadows.shader" Line="78" Column="37" />
+      <File FileName="Assets/Shaders/OberonsCourtShaders/Oberon_vertexcolor+rim.shader" Line="83" Column="37" />
+      <File FileName="Assets/Shaders/OberonsCourtShaders/vc+shadows.shader" Line="80" Column="37" />
+      <File FileName="Assets/Shaders/OberonsCourtShaders/Oberon_vertexcolor.shader" Line="78" Column="37" />
+      <File FileName="Assets/Shaders/VertexColor_and_light.shader" Line="1" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
