@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/ArtTesting.unity
+- path: Assets/Scenes/IllustratedLook.unity
   isLoaded: 1
   isActive: 1
